@@ -21,14 +21,15 @@ I built two types of models for comparison: RNN and LSTM.
 `LSTM Model`: The LSTM model comprises three LSTM layers with dropout regularization to capture long-term dependencies in the data.
 
 ### Training and Evaluation:
-Both models were trained using the training data and evaluated using the testing data. We used Mean Squared Error (MSE) as the loss function and Adam optimizer for model training. The models were trained for 15 epochs with a batch size of 1024.
+Both models were trained using the training data and evaluated using the testing data. I used Mean Squared Error (MSE) as the loss function and Adam optimizer for model training. The models were trained for 15 epochs with a batch size of 1024.
 
 ### Results:
 
-RNN Model: Achieved an R2 score of 0.9769 and an RMSE of 0.0226 on the testing data.
-LSTM Model: Achieved an R2 score of 0.9774 and an RMSE of 0.0224 on the testing data.
-Visualization:
-We visualized the actual and predicted energy consumption data using both RNN and LSTM models. Additionally, we compared the predictions of both models with the original data to assess their performance visually.
+`RNN Model`: Achieved an R2 score of 0.9769 and an RMSE of 0.0226 on the testing data.
+`LSTM Model`: Achieved an R2 score of 0.9774 and an RMSE of 0.0224 on the testing data.
+
+### Visualization:
+I visualized the actual and predicted energy consumption data using both RNN and LSTM models. Additionally, I compared the predictions of both models with the original data to assess their performance visually.
 
 ### Conclusion:
 In conclusion, both RNN and LSTM models performed well in predicting energy consumption based on the PJME hourly dataset. However, the LSTM model slightly outperformed the RNN model in terms of accuracy. These models can be further optimized and deployed in real-world applications for energy consumption forecasting, assisting in efficient resource management and decision-making processes.
