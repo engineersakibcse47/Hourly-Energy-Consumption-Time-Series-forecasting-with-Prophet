@@ -1,5 +1,5 @@
 
-## Project: Time Series Forecasting using RNN and LSTM
+## Project: Time Series Forecasting using Facebook's Prophet Model
 
 ### Introduction:
 Time series forecasting is a critical task in various domains such as finance, energy consumption, and weather prediction. In this project, we explore the application of Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) networks for time series forecasting. Specifically, we aim to predict energy consumption using hourly data.
